@@ -1,0 +1,58 @@
+{
+  "Products": [
+    {
+      "course_id": 1,
+      "course_title": "HTML",
+      "course_description": "Learn the basics of programming with this introductory course.",
+      "instructor": "John Smith",
+      "duration": "4 weeks",
+      "price": 49.99,
+      "image": "../../../assets/html1.png"
+    },
+    {
+      "course_id": 2,
+      "course_title": "CSS",
+      "course_description": "Master the fundamentals of web development.",
+      "instructor": "Emily Johnson",
+      "duration": "6 weeks",
+      "price": 69.99,
+      "image": "../../../assets/css1.png"
+    },
+    {
+      "course_id": 3,
+      "course_title": "JAVASCRIPT",
+      "course_description": "Explore the essentials of data science and analytics.",
+      "instructor": "David Miller",
+      "duration": "8 weeks",
+      "price": 79.99,
+      "image": "../../../assets/javascript.png"
+    },
+    {
+      "course_id": 4,
+      "course_title": "REACT",
+      "course_description": "Learn effective digital marketing strategies for businesses.",
+      "instructor": "Sarah Davis",
+      "duration": "5 weeks",
+      "price": 59.99,
+      "image": "../../../assets/react.png"
+    },
+    {
+      "course_id": 5,
+      "course_title": "ANGUALR",
+      "course_description": "Discover the basics of artificial intelligence and machine learning.",
+      "instructor": "Michael Brown",
+      "duration": "6 weeks",
+      "price": 69.99,
+      "image": "../../../assets/angular.png"
+    },
+    {
+      "course_id": 6,
+      "course_title": "NODE.JS",
+      "course_description": "Master the fundamentals of graphic design and visual communication.",
+      "instructor": "Jessica Lee",
+      "duration": "4 weeks",
+      "price": 49.99,
+      "image": "../../../assets/node.png"
+    }
+  ]
+}

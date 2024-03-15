@@ -1,0 +1,76 @@
+.logo {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  transition: 0.3s ease-in-out;
+}
+.logo:hover {
+  transition: 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+.card {
+  margin-top: 1em;
+  width: 23%;
+  margin: 1%;
+  text-align: center;
+  padding: 20px;
+}
+
+.card h5 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+button {
+  position: relative;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: hsl(255deg 50% 40%);
+  border: solid 4px hsl(50deg 100% 50%);
+  font-family: inherit;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.default-btn,
+.hover-btn {
+  background-color: hsl(255deg 50% 40%);
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.hover-btn {
+  position: absolute;
+  inset: 0;
+  background-color: hsl(255deg 50% 49%);
+  transform: translate(0%, 100%);
+}
+
+.default-btn span {
+  color: hsl(0, 0%, 100%);
+}
+
+.hover-btn span {
+  color: hsl(50deg 100% 50%);
+}
+
+button:hover .default-btn {
+  transform: translate(0%, -100%);
+}
+
+button:hover .hover-btn {
+  transform: translate(0%, 0%);
+}

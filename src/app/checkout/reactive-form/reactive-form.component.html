@@ -1,0 +1,79 @@
+<section class="main-container">
+  <section class="cart-section">
+    <div class="container">
+
+      <div class="row">
+
+
+
+        <ng-container>
+          <div class="offset-2 col-8 my-3">
+            <form [formGroup]="contactForm" (ngSubmit)="getFormData()">
+              <div class="row">
+                <div class="col-6">
+                  <div class="form-floating mb-3">
+                    <input class="form-control" type="text" id="firstName" formControlName="firstName"
+                      placeholder="Enter First Name" name="firstName" required>
+                    <label for="floatingInput">First Name <span class="text-danger">*</span></label>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" placeholder="Enter Last Name" id="lastName"
+                      formControlName="lastName" required>
+                    <label for="floatingInput">Last Name <span class="text-danger">*</span></label>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="form-floating mb-3">
+                    <input type="number" class="form-control" placeholder="+91 XXXXX XXXX" name="phno"
+                      formControlName="phNo" required>
+                    <label for="floatingInput">Phone</label>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="form-floating mb-3">
+                    <input type="email" id="email" formControlName="email" class="form-control" name="email"
+                      placeholder="abc@abc.com" required>
+                    <label for="floatingInput">Email <span class="text-danger">*</span></label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating mb-3">
+                    <input type="number" id="age" formControlName="age" class="form-control" name="age" required>
+                    <label for="floatingInput">Age: <span class="text-danger">*</span></label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" name="address" formControlName="address" required>
+                    <label for="floatingInput">Address <span class="text-danger">*</span></label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating mb-3">
+                    <input type="date" id="dob" formControlName="dob" class="form-control" name="date" required>
+                    <label for="floatingInput">Date of Birth: <span class="text-danger">*</span></label>
+                  </div>
+                </div>
+                <div class="col-12">
+
+                  <button class="btn btn-success my-3 w-100 py-3 text-uppercase fw-bold border-0 rounded-0"
+                    [disabled]="!contactForm.valid">
+                    Place Order
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+
+        </ng-container>
+
+
+      </div>
+    </div>
+
+
+  </section>
+</section>
